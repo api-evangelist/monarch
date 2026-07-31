@@ -1,8 +1,30 @@
 aid: monarch
 name: Monarch
-description: Monarch is a company surfaced as a portfolio company of menlo-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Monarch (Monarch Money) is a modern personal finance and money-management app
+  that brings a household's accounts, budgets, investments, and goals into one
+  shared view. It aggregates connected bank, card, loan, and investment accounts,
+  automatically categorizes transactions, and lets couples, families, and financial
+  professionals collaborate on budgeting and net-worth tracking at no extra cost.
+  Monarch is a direct-to-consumer subscription product ($99/year) and does not
+  publish an official public developer API — account connectivity is handled by
+  third-party aggregators and the app is driven by a private internal GraphQL
+  backend (api.monarch.com/graphql, authenticated). A community-maintained,
+  unofficial Python library reverse-engineers that backend. Monarch is a Menlo
+  Ventures portfolio company; this profile was enriched from its public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/monarch/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/mdewiujj/production/42e4e4b2c48f8120fd3102146cfb6cd334b3fd8a-1200x630.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Personal Finance
+- Fintech
+- Budgeting
+- Money Management
+- Financial Planning
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://monarchmoney.com
+  url: https://www.monarch.com
+- type: Blog
+  url: https://www.monarch.com/blog
+- type: Pricing
+  url: https://www.monarch.com/pricing
+- type: SignUp
+  url: https://app.monarch.com/signup
+- type: Login
+  url: https://app.monarch.com/login
+- type: TermsOfService
+  url: https://www.monarch.com/terms
+- type: PrivacyPolicy
+  url: https://www.monarch.com/privacy
+- type: Support
+  url: https://help.monarch.com/hc/en-us
+- type: StatusPage
+  url: https://status.monarch.com/
+- type: Security
+  url: https://www.monarch.com/security
+- type: TrustCenter
+  url: security/monarch-trust-center.yml
+- type: Compliance
+  url: https://www.monarch.com/security
+- type: DomainSecurity
+  url: security/monarch-domain-security.yml
+- type: Packages
+  url: packages/monarch-packages.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
